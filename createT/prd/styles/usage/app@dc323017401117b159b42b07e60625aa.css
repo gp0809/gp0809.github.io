@@ -178,7 +178,7 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .m-index .l-container .m-home .wrapper section .jingxuan .jingxuan-top{margin-left:.05rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;align-items:center;width:.68rem}
 .m-index .l-container .m-home .wrapper section .jingxuan .jingxuan-top .line{width:2px;height:.16rem;background:red;display:inline-block}
 .m-index .l-container .m-home .wrapper section .jingxuan .jingxuan-top h4{font-size:14px;line-height:.30rem;font-family:"微软雅黑";font-weight:300;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:.1rem;display:inline-block}
-.m-index .l-container .m-home .wrapper section .jingxuan ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;flex-wrap:wrap;-webkit-justify-content:space-around;justify-content:space-around}
+.m-index .l-container .m-home .wrapper section .jingxuan ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-around;justify-content:space-around}
 .m-index .l-container .m-home .wrapper section .jingxuan ul li{width:30%;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:5px;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;margin-bottom:.05rem;overflow:hidden;box-shadow:2px 2px 2px #ccc,-2px -2px 3px #eee}
 .m-index .l-container .m-home .wrapper section .jingxuan ul li .pic{width:100%}
 .m-index .l-container .m-home .wrapper section .jingxuan ul li .pic img{width:100%}
@@ -189,7 +189,7 @@ spa-view{position:absolute;z-index:0;top:0;left:0;bottom:0;width:100%;background
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top{margin-left:.05rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;align-items:center;width:.68rem}
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top .line{width:2px;height:.16rem;background:red;display:inline-block}
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top h4{font-size:14px;line-height:.30rem;font-family:"微软雅黑";font-weight:300;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:.1rem;display:inline-block}
-.m-index .l-container .m-home .wrapper section .chaoliu ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;flex-wrap:wrap}
+.m-index .l-container .m-home .wrapper section .chaoliu ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li{width:22%;margin-left:.075rem;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:5px;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;margin-bottom:.05rem;overflow:hidden;box-shadow:2px 2px 2px #ccc,-2px -2px 3px #eee}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li .pic{width:100%}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li .pic img{width:100%}
@@ -258,7 +258,7 @@ to{transform:rotatez(360deg)}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan .jingxuan-top{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;align-items:center;width:.68rem}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan .jingxuan-top .line{width:2px;height:.16rem;background:red;display:inline-block}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan .jingxuan-top h4{font-size:14px;line-height:.30rem;font-family:"微软雅黑";font-weight:300;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:.1rem;display:inline-block}
-.m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;flex-wrap:wrap;-webkit-justify-content:space-around;justify-content:space-around}
+.m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-justify-content:space-around;justify-content:space-around}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan ul li{width:30%;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:5px;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;margin-bottom:.05rem;overflow:hidden;box-shadow:2px 2px 2px #ccc,-2px -2px 3px #eee}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan ul li .pic{width:100%}
 .m-index .l-container .m-home .wrapper section #home-Swiper .jingxuan ul li .pic img{width:100%}
@@ -269,7 +269,7 @@ to{transform:rotatez(360deg)}
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top{margin-left:.05rem;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-justify-content:space-around;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;align-items:center;width:.68rem}
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top .line{width:2px;height:.16rem;background:red;display:inline-block}
 .m-index .l-container .m-home .wrapper section .chaoliu .chaoliu-top h4{font-size:14px;line-height:.30rem;font-family:"微软雅黑";font-weight:300;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:.1rem;display:inline-block}
-.m-index .l-container .m-home .wrapper section .chaoliu ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;flex-wrap:wrap}
+.m-index .l-container .m-home .wrapper section .chaoliu ul{width:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-lines:multiple;-webkit-flex-wrap:wrap;flex-wrap:wrap}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li{width:22%;margin-left:.075rem;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:5px;-webkit-background-clip:padding-box!important;background-clip:padding-box!important;margin-bottom:.05rem;overflow:hidden;box-shadow:2px 2px 2px #ccc,-2px -2px 3px #eee}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li .pic{width:100%}
 .m-index .l-container .m-home .wrapper section .chaoliu ul li .pic img{width:100%}
