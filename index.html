@@ -14,6 +14,32 @@
           }
       };
   </script>
-  <script src="/createT/prd/scripts/app@78636f40d35b06a9bc3f64ef131305c2.js"></script>
+  <!-- <script src="/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js"></script> -->
+  <script>
+    document.addEventListener("deviceready", function onDeviceReady() {
+        var script = document.createElement('script');
+        script.src = "/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js";
+        document.body.appendChild(script);
+        
+        document.getElementById('photoBtn').onclick=function(){
+        document.getElementById('photo-wrap').style.display="block";
+          navigator.camera.getPicture(onSuccess, onFail, {
+            destinationType: Camera.DestinationType.FILE_URI,
+            sourceType: Camera.PictureSourceType.CAMERA,
+            correctOrientation:true,
+            cameraDirection:0
+          });
+        }
+        function onSuccess(path) {
+            var photo = document.getElementById('photo');
+            photo.style.backgroundImage ="url("+path+")";
+            photo.style.backgroundSize="cover";
+        }
+  
+        function onFail(message) {
+            alert('error');
+        }
+      }, false);
+ </script>
 </body>
 </html>
