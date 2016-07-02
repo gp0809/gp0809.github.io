@@ -16,8 +16,10 @@
   </script>
   <!-- <script src="/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js"></script> -->
   <script>
-
-    document.addEventListener("deviceready", function onDeviceReady() {
+        var script = document.createElement('script');
+        script.src = "/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js";
+        document.body.appendChild(script);
+    /*document.addEventListener("deviceready", function onDeviceReady() {
         var script = document.createElement('script');
         script.src = "/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js";
         document.body.appendChild(script);
@@ -40,7 +42,7 @@
         function onFail(message) {
             alert('error');
         }
-      }, false);
+      }, false);*/
  </script>
 </body>
 </html>
