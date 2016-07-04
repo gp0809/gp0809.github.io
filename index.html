@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <title>createT</title>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="/createT/prd/styles/usage/app@ddca91bb7ec1205e283f829318bf5560.css">
+  <link rel="stylesheet" href="/createT/prd/styles/usage/app@482ce55233cc02890268191d0465c7b6.css">
 </head>
 <body>
+    <script type="text/javascript" src="cordova.js"></script>
 	<script>
       document.ontouchmove = function(e) {
           if (e.target.tagName.toUpperCase() !== 'IFRAME') {
@@ -14,14 +15,10 @@
           }
       };
   </script>
-  <!-- <script src="/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js"></script> -->
   <script>
+    document.addEventListener("deviceready", function onDeviceReady() {
         var script = document.createElement('script');
-        script.src = "/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js";
-        document.body.appendChild(script);
-    /*document.addEventListener("deviceready", function onDeviceReady() {
-        var script = document.createElement('script');
-        script.src = "/createT/prd/scripts/app@a05344ca983ef1b9c6f3774331cfcc58.js";
+        script.src = "/createT/prd/scripts/app@84a7a162e9fa621383af11867c57bdba.js";
         document.body.appendChild(script);
         
         document.getElementById('photoBtn').onclick=function(){
@@ -38,11 +35,11 @@
             photo.style.backgroundImage ="url("+path+")";
             photo.style.backgroundSize="cover";
         }
-  
+
         function onFail(message) {
             alert('error');
         }
-      }, false);*/
- </script>
+      }, false);
+  </script>
 </body>
 </html>
