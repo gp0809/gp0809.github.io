@@ -3,8 +3,8 @@
   "errcode": -1,
   "errmsg": "",
   "data": {
-      "imgsrclogo": "/createT/images/splogo.png",
-      "imgsrc": "/createT/images/s1.png",
+      "imgsrclogo": "https://gp0809.github.io/createT/images/splogo.png",
+      "imgsrc": "https://gp0809.github.io/createT/images/s1.png",
       "name": "速度",
       "price":"68"
     }

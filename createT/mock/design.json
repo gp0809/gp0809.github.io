@@ -4,11 +4,11 @@
   "errmsg": "",
   "data": [
     {
-      "imgsrc": "/createT/images/true1.png",
+      "imgsrc": "https://gp0809.github.io/createT/images/true1.png",
       "title": "设计中心"
     },
     {
-      "imgsrc": "/createT/images/false1.png"
+      "imgsrc": "https://gp0809.github.io/createT/images/false1.png"
     }
   ]
 }
